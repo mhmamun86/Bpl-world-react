@@ -8,7 +8,6 @@ import { ToastContainer } from 'react-toastify';
 import { handleBalance, updatePlayer } from './utility/Function';
 import SelectedPlayers from './component/SelectedPlayers/SelectedPlayers';
 import Footer from './component/Footer/Footer';
-import Newsletter from './component/Footer/Newslatter';
 
 const playersPromise = fetch('players.json').then(res => res.json());
 
